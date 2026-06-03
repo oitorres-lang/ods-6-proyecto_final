@@ -1,16 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ODS 6 - Agua Limpia en Ecuador</title>
+    <title>ODS 6 | Agua Limpia y Saneamiento en Ecuador</title>
 
     <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 </head>
+
 <body>
 
-    <!-- PORTADA -->
-    <header class="hero">
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            ODS 6
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#situacion">Situación</a></li>
+            <li><a href="#problematica">Problemática</a></li>
+            <li><a href="#solucion">Solución</a></li>
+            <li><a href="#impacto">Impacto</a></li>
+            <li><a href="#galeria">Galería</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- HERO -->
+
+    <header id="inicio" class="hero">
 
         <div class="overlay">
 
@@ -19,54 +51,154 @@
             <h2>Agua Limpia y Saneamiento</h2>
 
             <p>
-                Garantizar la disponibilidad de agua y su gestión sostenible
-                para todas las personas.
+                Innovación tecnológica para proteger los recursos hídricos,
+                reducir la contaminación y garantizar el acceso a agua segura
+                para las comunidades del Ecuador.
             </p>
 
-            <a href="#problematica" class="btn">
-                Conocer la Problemática
-            </a>
+            <div class="hero-buttons">
+
+                <a href="#problematica" class="btn">
+                    Conocer la Problemática
+                </a>
+
+                <a href="#solucion" class="btn btn-secondary">
+                    Ver Solución
+                </a>
+
+            </div>
 
         </div>
 
     </header>
 
-    <!-- PROBLEMÁTICA -->
+    <!-- ESTADISTICAS -->
+
+    <section class="stats">
+
+        <div class="stat-card">
+            <h3>2030</h3>
+            <p>Meta Global del ODS 6</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>24/7</h3>
+            <p>Monitoreo Inteligente</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>100%</h3>
+            <p>Datos en Tiempo Real</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>IoT</h3>
+            <p>Tecnología de Sensores</p>
+        </div>
+
+    </section>
+
+    <!-- SITUACION -->
+
+    <section id="situacion" class="situation">
+
+        <h2>Situación Actual</h2>
+
+        <div class="situation-container">
+
+            <div class="situation-card">
+                <i class="fas fa-water"></i>
+
+                <h3>Fuentes Hídricas</h3>
+
+                <p>
+                    Los recursos hídricos son esenciales para el desarrollo,
+                    la agricultura y la salud de las comunidades.
+                </p>
+            </div>
+
+            <div class="situation-card">
+                <i class="fas fa-house-flood-water"></i>
+
+                <h3>Zonas Vulnerables</h3>
+
+                <p>
+                    Varias comunidades rurales enfrentan dificultades para
+                    acceder a agua potable segura y saneamiento adecuado.
+                </p>
+            </div>
+
+            <div class="situation-card">
+                <i class="fas fa-leaf"></i>
+
+                <h3>Impacto Ambiental</h3>
+
+                <p>
+                    La contaminación afecta ecosistemas, biodiversidad
+                    y actividades económicas locales.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROBLEMATICA -->
+
     <section id="problematica" class="problem">
 
-        <h2>⚠ Problemática en Ecuador</h2>
+        <h2>Problemáticas Identificadas</h2>
 
         <div class="problem-container">
 
             <div class="problem-card">
 
-                <h3>🌊 Contaminación de Ríos</h3>
+                <i class="fas fa-trash"></i>
+
+                <h3>Contaminación de Ríos</h3>
 
                 <p>
-                    En varias zonas del Ecuador, muchos ríos y fuentes de agua
-                    están siendo contaminados por basura, aguas residuales
-                    y desechos industriales.
-                </p>
-
-                <p>
-                    Esto afecta directamente a las comunidades que utilizan
-                    estas fuentes para consumo y agricultura.
+                    Residuos domésticos, industriales y aguas residuales
+                    deterioran la calidad del agua.
                 </p>
 
             </div>
 
             <div class="problem-card">
 
-                <h3>🚱 Escasez de Agua Potable</h3>
+                <i class="fas fa-faucet-drip"></i>
+
+                <h3>Escasez de Agua Potable</h3>
 
                 <p>
-                    Algunas comunidades rurales aún no tienen acceso constante
-                    a agua potable segura y sistemas adecuados de saneamiento.
+                    Algunas comunidades tienen acceso limitado a fuentes
+                    seguras de agua para consumo humano.
                 </p>
 
+            </div>
+
+            <div class="problem-card">
+
+                <i class="fas fa-triangle-exclamation"></i>
+
+                <h3>Riesgos para la Salud</h3>
+
                 <p>
-                    Esto puede provocar enfermedades y problemas de salud
-                    en la población.
+                    El consumo de agua contaminada incrementa la probabilidad
+                    de enfermedades y problemas sanitarios.
+                </p>
+
+            </div>
+
+            <div class="problem-card">
+
+                <i class="fas fa-seedling"></i>
+
+                <h3>Daño Ambiental</h3>
+
+                <p>
+                    Los ecosistemas acuáticos sufren alteraciones que afectan
+                    flora, fauna y productividad agrícola.
                 </p>
 
             </div>
@@ -75,68 +207,233 @@
 
     </section>
 
-    <!-- SOLUCIÓN -->
-<section class="solution">
+    <!-- SOLUCION -->
 
-    <h2>💡 Solución Tecnológica</h2>
+    <section id="solucion" class="solution">
 
-    <div class="solution-container">
+        <h2>AquaGuard Ecuador</h2>
 
-        <div class="solution-card">
+        <p class="section-subtitle">
+            Plataforma tecnológica para monitorear, proteger y gestionar
+            recursos hídricos mediante sensores inteligentes y energía limpia.
+        </p>
 
-            <h3>🌊 Sistema Inteligente para Detectar Contaminación</h3>
+        <div class="solution-container">
 
-            <p>
-                Se propone implementar sensores inteligentes en ríos y
-                reservorios para medir la calidad del agua en tiempo real.
-            </p>
+            <div class="solution-card">
 
-            <p>
-                El sistema detectará contaminación, cambios de pH
-                y sustancias peligrosas, enviando alertas automáticas
-                a las autoridades y comunidades.
-            </p>
+                <i class="fas fa-microchip"></i>
+
+                <h3>Sensores Inteligentes IoT</h3>
+
+                <p>
+                    Monitorean pH, temperatura, turbidez y calidad del agua
+                    en tiempo real.
+                </p>
+
+            </div>
+
+            <div class="solution-card">
+
+                <i class="fas fa-desktop"></i>
+
+                <h3>Plataforma Web</h3>
+
+                <p>
+                    Visualización de datos en línea para autoridades
+                    y comunidades.
+                </p>
+
+            </div>
+
+            <div class="solution-card">
+
+                <i class="fas fa-bell"></i>
+
+                <h3>Alertas Automáticas</h3>
+
+                <p>
+                    Notificaciones inmediatas ante contaminación
+                    o niveles críticos.
+                </p>
+
+            </div>
+
+            <div class="solution-card">
+
+                <i class="fas fa-solar-panel"></i>
+
+                <h3>Purificación Solar</h3>
+
+                <p>
+                    Estaciones sostenibles para proveer agua segura
+                    en zonas alejadas.
+                </p>
+
+            </div>
 
         </div>
 
-        <div class="solution-card">
+    </section>
 
-            <h3>🚰 Estaciones Comunitarias de Purificación</h3>
+    <!-- COMO FUNCIONA -->
 
-            <p>
-                Para las comunidades con escasez de agua potable,
-                se plantea instalar estaciones de purificación
-                alimentadas con energía solar.
-            </p>
+    <section class="timeline">
 
-            <p>
-                Estas estaciones permitirán filtrar y almacenar agua segura
-                para el consumo diario de las familias.
-            </p>
+        <h2>¿Cómo Funciona?</h2>
+
+        <div class="timeline-container">
+
+            <div class="timeline-item">
+                <span>1</span>
+                <h3>Captación</h3>
+                <p>Los sensores recopilan datos.</p>
+            </div>
+
+            <div class="timeline-item">
+                <span>2</span>
+                <h3>Análisis</h3>
+                <p>Procesamiento automático.</p>
+            </div>
+
+            <div class="timeline-item">
+                <span>3</span>
+                <h3>Detección</h3>
+                <p>Identificación de anomalías.</p>
+            </div>
+
+            <div class="timeline-item">
+                <span>4</span>
+                <h3>Alerta</h3>
+                <p>Respuesta inmediata.</p>
+            </div>
 
         </div>
 
-    </div>
+    </section>
 
-</section>
+    <!-- IMPACTO -->
 
-    <!-- GALERÍA -->
-    <section class="gallery">
+    <section id="impacto" class="impact">
+
+        <h2>Impacto Esperado</h2>
+
+        <div class="impact-container">
+
+            <div class="impact-card">
+
+                <i class="fas fa-heart"></i>
+
+                <h3>Salud</h3>
+
+                <p>
+                    Reducción de riesgos asociados al consumo de agua contaminada.
+                </p>
+
+            </div>
+
+            <div class="impact-card">
+
+                <i class="fas fa-tree"></i>
+
+                <h3>Ambiente</h3>
+
+                <p>
+                    Conservación de ecosistemas acuáticos y biodiversidad.
+                </p>
+
+            </div>
+
+            <div class="impact-card">
+
+                <i class="fas fa-hand-holding-dollar"></i>
+
+                <h3>Economía</h3>
+
+                <p>
+                    Protección de actividades agrícolas y productivas.
+                </p>
+
+            </div>
+
+            <div class="impact-card">
+
+                <i class="fas fa-laptop-code"></i>
+
+                <h3>Tecnología</h3>
+
+                <p>
+                    Gestión inteligente basada en datos en tiempo real.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- MAPA -->
+
+    <section class="map-section">
+
+        <h2>Zonas Prioritarias</h2>
+
+        <div class="map-container">
+
+            <div class="map-card">
+                <i class="fas fa-location-dot"></i>
+                <h3>Azuay</h3>
+            </div>
+
+            <div class="map-card">
+                <i class="fas fa-location-dot"></i>
+                <h3>Loja</h3>
+            </div>
+
+            <div class="map-card">
+                <i class="fas fa-location-dot"></i>
+                <h3>Chimborazo</h3>
+            </div>
+
+            <div class="map-card">
+                <i class="fas fa-location-dot"></i>
+                <h3>Morona Santiago</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- GALERIA -->
+
+    <section id="galeria" class="gallery">
 
         <h2>El Agua es Vida</h2>
 
         <div class="images">
 
             <div class="img-box">
-                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Agua">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="">
             </div>
 
             <div class="img-box">
-                <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e" alt="Río">
+                <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e" alt="">
             </div>
 
             <div class="img-box">
-                <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9" alt="Naturaleza">
+                <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9" alt="">
+            </div>
+
+            <div class="img-box">
+                <img src="https://images.unsplash.com/photo-1473773508845-188df298d2d1" alt="">
+            </div>
+
+            <div class="img-box">
+                <img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07" alt="">
+            </div>
+
+            <div class="img-box">
+                <img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716" alt="">
             </div>
 
         </div>
@@ -144,19 +441,33 @@
     </section>
 
     <!-- FRASE -->
+
     <section class="quote">
 
         <h2>
-            "Cada gota cuenta para construir un futuro mejor."
+            "La tecnología y la gestión sostenible del agua son pilares
+            fundamentales para garantizar bienestar, salud y desarrollo
+            para las futuras generaciones del Ecuador."
         </h2>
 
     </section>
 
     <!-- FOOTER -->
+
     <footer>
 
+        <h3>ODS 6 | Agua Limpia y Saneamiento</h3>
+
         <p>
-            Proyecto Web ODS 6 | Problemática del Agua en Ecuador
+            Proyecto Académico de Innovación Tecnológica
+        </p>
+
+        <p>
+            Tecnología Superior en Redes y Telecomunicaciones
+        </p>
+
+        <p>
+            © 2026 - Todos los derechos reservados
         </p>
 
     </footer>
